@@ -2,25 +2,24 @@
 
 A modern and responsive personal portfolio website built using HTML5, CSS3, and SCSS.
 
-## Overview
+## 📌 Overview
 
-This project is a personal portfolio website created as part of my frontend development learning journey.
-It showcases personal information, technical skills, featured projects, media content, client testimonials, and contact details in a clean and interactive layout.
+This project is a personal portfolio website created during my frontend development learning journey.
 
-## Features
+The website showcases:
 
-* Responsive Design
-* Dark / Light Theme Toggle
-* Smooth Navigation
-* Video Background
-* Skills Section
-* Featured Projects Showcase
+* Personal Information
+* Skills
+* Featured Projects
 * Client Testimonials
+* Media Section
 * Contact Form
-* SCSS Architecture
-* Clean UI Design
 
-## Technologies Used
+The project focuses on building clean layouts, reusable SCSS architecture, responsive design, and modern UI practices.
+
+---
+
+## 🚀 Technologies Used
 
 * HTML5
 * CSS3
@@ -29,66 +28,105 @@ It showcases personal information, technical skills, featured projects, media co
 * CSS Grid
 * Responsive Design
 
-## Folder Structure
+---
 
-```bash
+## ✨ Features
+
+* Responsive Layout
+* Sticky Navigation Bar
+* Theme Toggle
+* Video Background
+* Contact Form
+* SCSS Modular Architecture
+* Smooth Scrolling Navigation
+* Reusable Components
+* Modern UI Design
+
+---
+
+## 📂 Folder Structure
+
+```bash id="cbh6zb"
 project-folder/
 │
 ├── index.html
 ├── results.html
 ├── styles/
+│   ├── style.scss
+│   ├── _variables.scss
+│   ├── _mixins.scss
+│   ├── _reset.scss
+│   ├── _global.scss
+│   ├── _header.scss
+│   ├── _bio.scss
+│   ├── _skills.scss
+│   ├── _projects.scss
+│   ├── _clients.scss
+│   ├── _contact.scss
+│   ├── _footer.scss
+│   ├── _responsive.scss
+│   └── _theme.scss
+│
 ├── images/
 ├── video.mp4
 ├── video-loop.mp4
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
-## Getting Started
+---
 
-1. Clone the repository
+## ⚡ Getting Started
 
-```bash
+### Clone the repository
+
+```bash id="01w14d"
 git clone https://github.com/your-username/personal-portfolio.git
 ```
 
-2. Open the project folder
+### Open the project folder
 
-```bash
+```bash id="esn9v1"
 cd personal-portfolio
 ```
 
-3. Run the project
+### Run the project
 
 Open `index.html` in your browser.
 
-## Live Demo
+---
 
-Coming Soon...
+## 📚 What I Learned
 
-## What I Learned
-
-Through this project, I practiced:
+During this project I practiced:
 
 * Semantic HTML Structure
 * SCSS File Organization
 * Responsive Web Design
-* CSS Variables and Themes
-* Flexbox & Grid Layout
-* Form Handling
-* Building Multi-Section Layouts
+* CSS Variables
+* Flexbox & Grid
+* Multi-section Layouts
+* Clean Folder Structure
+* UI Organization
 
-## Future Improvements
+---
 
-* Add animations
-* Improve accessibility
+## 🔮 Future Improvements
+
 * Add JavaScript interactions
+* Improve accessibility
+* Add animations
 * Optimize performance
-* Connect contact form to backend
+* Connect the contact form to a backend service
 
-## Author
+---
+
+## 👨‍💻 Author
 
 Abdelhalim Khafagy
 
-## License
+---
+
+## 📄 License
 
 This project is open source and available under the MIT License.
